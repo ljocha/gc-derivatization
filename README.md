@@ -23,7 +23,12 @@ $ conda create -n gc-meox-tms -c bioconda gc-meox-tms
 $ conda activate gc-meox-tms
 ```
 
-2. From source by cloning the repository and installing the package with `pip` as follows:
+2. Install from `pip`:
+```shell
+$ pip install gc-meox-tms
+```
+
+3. From source by cloning the repository and installing the package with `pip` as follows:
 ```shell
 $ git clone https://github.com/RECETOX/gc-meox-tms.git
 
@@ -32,12 +37,6 @@ $ python -m pip install gc-meox-tms
 
 # if you want to run examples in the Jupyter notebook, install with this command:
 $ python -m pip install gc-meox-tms[eda]
-```
-
-2. Install via Conda:
-```shell
-$ conda create --name gc-meox-tms gc-meox-tms
-$ conda activate gc-meox-tms 
 ```
 
 ## Usage
@@ -95,7 +94,6 @@ See also the Jupyter notebook in `example/` directory for more examples.
 
 ## Developer documentation
 
----
 ### Installation
 Create a virtual environment of your choice (e.g., conda or venv).
 The development version can be installed with conda or pip as follows:
